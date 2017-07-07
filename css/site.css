@@ -1,7 +1,7 @@
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
-	font-size: 120%;
+	font-size: 200%;
 	line-height: 1.5;
 }
 
@@ -13,9 +13,9 @@ h1, h2 {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
-	padding: 25px;
-	border-bottom: 10px solid black;
-	font-size: 60px;
+	padding: 2rem;
+	border-bottom: .5rem solid black;
+	font-size: 300%;
 	text-transform: uppercase;
 }
 
@@ -26,10 +26,11 @@ p {
 
 .citacao-bio {
 	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
+	border: .5rem solid #C2CCCA;
+	padding: 1em 2em;
+	margin: 1em 40px;
+	width: 30ch;
 	box-sizing: border-box;
-	margin: 20px 40px;
 }
 
 .navegacao-site {
