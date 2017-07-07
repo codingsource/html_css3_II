@@ -1,11 +1,15 @@
+html {
+	font-size: 120%;
+}
+
 body {
 	font-family: "Crimson Text", "Times New Roman", serif;
 	background-color: #F2FFFC;
-	font-size: 200%;
 	line-height: 1.5;
 }
 
-h1, h2 {
+h1,
+h2 {
 	font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
@@ -58,8 +62,10 @@ main a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
-.citacao-bio, .navegacao-site, .rodape-pagina {
-    padding: 20px;
+.citacao-bio,
+.navegacao-site,
+.rodape-pagina {
+	padding: 20px;
 }
 
 .container {
@@ -126,7 +132,8 @@ main {
 	width: 85%;
 }
 
-.minha-foto, .navegacao-site {
+.minha-foto,
+.navegacao-site {
 	float: right;
 	border-left: 10px solid black;
 	border-bottom: 10px solid black;
@@ -135,8 +142,8 @@ main {
 .navegacao-site {
 	width: 15%;
 	box-sizing: border-box;
-    position: relative;
-    top: 310px;
+	position: relative;
+	top: 310px;
 }
 
 cite {
@@ -145,16 +152,16 @@ cite {
 }
 
 .minha-foto {
-    width: 300px;
-    position: absolute;
-    top: 0;
-    right: 0;
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	box-sizing: border-box;
 }
