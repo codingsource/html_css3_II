@@ -12,14 +12,19 @@ gulp.task('browser-sync', function () {
     browserSync.notify('BS');
     browserSync.init({
         server: {
-            baseDir: './'
-        },
-        notify: true
+            baseDir: './',
+            browser: ["google chrome", "firefox"],
+            httpModule: 'http2',
+            https: true,
+            reloadOnRestart: false,
+            logConnections: true,
+            notify: true
+        }
     });
 });
 
 gulp.task('watch', function () {
-    gulp.watch(['*.html', 'css/*.css', '*.js', 'img/*.png'], {
+    gulp.watch(['*.html', '*/*.html', 'css/*.css', '*.js', 'img/*.png'], {
             ignored: 'gulpfile.js'
         }).on('change', reload);
 });

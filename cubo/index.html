@@ -1,0 +1,66 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cubo</title>
+    <style>
+        .cubo {
+            position: relative;
+        }
+
+        .face {
+            position: absolute;
+            transform: translateZ(50px);
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+        }
+        .face-costa {
+            position: absolute;
+            transform: translateX(50px) rotateY(90deg);
+            width: 50px;
+            height: 50px;
+            background-color: #09F;
+        }
+        .face-cima {
+            position: absolute;
+            transform: translateY(-50px) rotateX(90deg);
+            width: 50px;
+            height: 50px;
+            background-color: #0FF;
+        }
+        .face-esquerda {
+            position: absolute;
+            transform: translateZ(50px);
+            width: 50px;
+            height: 50px;
+            background-color: #9FF;
+        }
+        .face-direita {
+            position: absolute;
+            transform: translateZ(50px);
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+        }
+        .face-baixo {
+            position: absolute;
+            transform: translateZ(50px);
+            width: 50px;
+            height: 50px;
+            background-color: #00F;
+        }
+        </style>
+</head>
+<body>
+    <div class="cubo">
+        <div class="face-costa"></div>
+        <div class="face"></div>
+        <div class="face-esquerda"></div>
+        <div class="face-cima"></div>
+        <div class="face-direita"></div>
+        <div class="face-baixo"></div>
+    </div>
+</body>
+</html>

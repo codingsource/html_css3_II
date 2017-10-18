@@ -1,33 +1,33 @@
 {
-    "name": "Biografia João da Silva",
-    "description": "Projeto sobre João da Silva",
-    "authors": "Peter Thomas",
-    "version": "1.0.0",
-    "main": "index.html",
-    "scripts": {
-        "gulp": "gulp"
-    },
-    "directories": {
-        "man": "./"
-    },
-    "repository": {
-        "type": "html",
-        "url": "https://github.com/codingsource/html_css3_I.git"
-    },
-    "author": {
-        "email": "peterpetrick@gmail.com",
-        "name": "Peter Thomas",
-        "url": "https://github.com/codingsource/"
-    },
-    "license": "UNLICENSED",
-    "private": true,
-    "dependencies": {
-        "npm": "^5.0.3",
-        "npm-install-package": "^2.1.0"
-    },
-    "devDependencies": {
-        "bower-main": "^0.2.14",
-        "browser-sync": "^2.18.12",
-        "gulp": "^3.9.1"
-    }
+  "name": "Biografia João da Silva",
+  "description": "Projeto sobre João da Silva",
+  "authors": "Peter Thomas",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "directories": {
+    "man": "./"
+  },
+  "repository": {
+    "type": "html",
+    "url": "https://github.com/codingsource/html_css3_II.git"
+  },
+  "author": {
+    "email": "peterpetrick@gmail.com",
+    "name": "Peter Thomas",
+    "url": "https://github.com/codingsource/"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "npm": "^5.0.3",
+    "npm-install-package": "^2.1.0"
+  },
+  "devDependencies": {
+    "bower-main": "^0.2.14",
+    "browser-sync": "^2.18.12",
+    "gulp": "^3.9.1"
+  }
 }
